@@ -1,6 +1,7 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Роман Милаев](https://up.htmlacademy.ru/htmlcss/15/user/247319).
+* Наставник: [Андрей Кованов](https://up.htmlacademy.ru/htmlcss/15/user/63294).
 
 ---
 
