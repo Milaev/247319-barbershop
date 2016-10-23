@@ -7,8 +7,7 @@
 <body>
 	<header class="main-header">
 		<div class="container">
-			<!--я подумал, что было бы круто чтобы лого была ссылкой на главную-->
-			<a href="index.html"><img src="img/logo.png" width="200" height="20" alt="Логотип"></a>
+			<a href="index.html"><img class="logo" src="img/logo.png" width="200" height="20" alt="Логотип"></a>
 			<nav class="main-menu">
 				<ul>
 					<li>
@@ -34,9 +33,9 @@
 		</div>
 	</header>
 	<main>
-	<div class="title">
+	<div class="breadcrumbs">
 		<h1>Набор для путешествий "Baxter of California"</h1>
-		<ul class="breadcrumb">
+		<ul class="breadcrumbs">
 			<li>
 				<a href="#">Главная</a>
 			</li>
@@ -47,31 +46,22 @@
 				<a href="#">Средства для ухода</a>
 			</li>
 			<li>
-			<!-- Тут бы тоже дать актив класс ссылке, вроде это в стилях будем делать, но решил убрать, тк будет одинкаовый класс как в мэйн-меню, а пока не знаю как их по-разному оформить, мб другой класс просто?-->
-				<a href="#">Набор для путешествий "Baxter of California"</a>
+				<a class="breadcrumb-active">Набор для путешествий "Baxter of California"</a>
 			</li>
 		</ul>
 	</div>
 	<div class="gallery">
-		<div class="main-photo">
-			<a class="first-zoom" href="#"><img src="#" width=500 height="500" alt="Основное фото"></a>
-		</div>
-		<div class="second-photo">
-			<a class="second-zoom" href="#"><img src="#" width=150 height="150" alt="Второе фото"></a>
-		</div>
-		<div class="third-photo">
-			<a class="third-zoom" href="#"><img src="#" width=150 height="150" alt="Третье фото"></a>
-		</div>
-		<div class="fourth-photo">
-			<a class="fourth-zoom" href="#"><img src="#" width=150 height="150" alt="Четвертое фото"></a>
-		</div>
+		<img class="main-photo" src="#" width=500 height="500" alt="Основное фото">
+		<a class="minipic" href="#"><img src="#" width=150 height="150" alt="Второе фото"></a>
+		<a class="minipic" href="#"><img src="#" width=150 height="150" alt="Третье фото"></a>
+		<a class="minipic" href="#"><img src="#" width=150 height="150" alt="Четвертое фото"></a>
 	</div>
 	<div class="description">
 		<p>Есть в наличии</p>
 		<p>Артикул: Dexter-AE</p>
 		<p>Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
 		<p>2 900 руб.</p>
-		<button type="submit" value="Купить">Купить</button>
+		<a class="btn" href="#">Купить</a>
 	</div>
 	<div class="composition">
 		<h2>В набор входят:</h2>
