@@ -3,7 +3,7 @@ body {
 	color: #000000;
 	line-height: 18px;
 	font-weight: bold;
-	font-family: "PT Sans Narrow";
+	font-family: "PT Sans Narrow", "Arial", sans-serif;
 }
 
 h1 {
