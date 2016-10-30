@@ -1,4 +1,9 @@
+html,
 body {
+	min-width: 1200px;
+	min-height: 1173px;
+	margin: 0;
+	padding: 0;
 	font-size: 14px;
 	color: #000000;
 	line-height: 18px;
@@ -14,4 +19,138 @@ h1 {
 h2 {
 	font-size: 24px;
 	line-height: 30px;
+}
+
+.main-header{
+	margin-bottom: 58px;
+}
+
+.container {
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	width: 110px;
+}
+
+.main-menu {
+	float: left;
+	width: 690px;
+}
+
+.user-block {
+	float: right;
+	width: 140px;
+}
+
+.title-block {
+	width: 940px;
+	margin-bottom: 54px;
+}
+
+.left-column {
+	float: left;
+	width: 220px;
+}
+
+.production {
+	margin-bottom: 60px;
+}
+
+.right-column {
+	float: right;
+	width: 700px;
+	margin-bottom: 45px;
+}
+
+.item {
+	float: left;
+	width: 220px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.item:nth-child(3n) {
+	margin-right: 0;
+}
+
+.pagination {
+	width: 150px;
+	margin-left: 250px;
+	margin-bottom: 66px;
+}
+
+.main-footer {
+	height: 189px;
+}
+
+.footer-contacts {
+	float: left;
+	width: 360px;
+	margin-right: 40px;
+}
+
+.footer-social {
+	float: left;
+	width: 220px;
+	margin-right: 180px;
+} 
+
+.footer-copyright {
+	float: right;
+	width: 140px;
+}
+
+.gallery {
+	width: 460px;
+	float: left;
+	margin-right: 90px;
+	margin-bottom: 49px;
+}
+.main-photo{
+	margin-bottom: 21px;
+}
+
+/* Ничего лучше не придумал, оч долго сидел над строчными img и a и зафигачил каждую в div
+через :last-child пробовал, но не работало, пока каждую в div не обернул
+как правильнее сделать?*/
+.minipic {
+	float: left;
+	width: 140px;
+	margin-right: 20px;
+}
+
+.minipic-3 {
+	margin-right: 0;
+}
+
+.description {
+	float: right;
+	width: 390px;
+	margin-top: 76px;
+	margin-bottom: 63px;
+}
+
+.left {
+	float: left;
+	width: 150px;
+}
+
+.right {
+	float: right;
+	width: 140px;
+}
+
+.composition {
+	float: right;
+	width: 390px;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
 }
