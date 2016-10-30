@@ -104,30 +104,29 @@ h2 {
 	width: 140px;
 }
 
-.gallery {
-	width: 460px;
+.l-column {
 	float: left;
+	width: 460px;
 	margin-right: 90px;
 	margin-bottom: 49px;
 }
+
 .main-photo{
 	margin-bottom: 21px;
 }
 
-/* Ничего лучше не придумал, оч долго сидел над строчными img и a и зафигачил каждую в div
-через :last-child пробовал, но не работало, пока каждую в div не обернул
-как правильнее сделать?*/
-.minipic {
+.minipic a {
+	display: block;
 	float: left;
 	width: 140px;
 	margin-right: 20px;
 }
 
-.minipic-3 {
+.minipic a:last-child {
 	margin-right: 0;
 }
 
-.description {
+.r-column {
 	float: right;
 	width: 390px;
 	margin-top: 76px;
@@ -136,7 +135,7 @@ h2 {
 
 .left {
 	float: left;
-	width: 150px;
+	width: 90px;
 }
 
 .right {
@@ -145,8 +144,7 @@ h2 {
 }
 
 .composition {
-	float: right;
-	width: 390px;
+	margin-top: 65px;
 }
 
 .clearfix::after {
